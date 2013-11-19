@@ -56,8 +56,6 @@ class Run extends AppModel {
 		$duration    = $this->data[$this->alias]['duration'];
 		$weather	 = $this->data[$this->alias]['weather'];
 
-		$score = 0;
-
 		$score = $this->temperatureScore($temperature);
 
 		/**
@@ -147,7 +145,6 @@ class Run extends AppModel {
 	}
 
 	public function validDate() {
-		return true;
 		return $this->data[$this->alias]['date'] >= Configure::read('Contest.start') && $this->data[$this->alias]['date'] <= Configure::read('Contest.end');
 	}
 	
