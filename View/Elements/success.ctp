@@ -1,0 +1,1 @@
+<div id="flashSuccess" class="label label-success"><?= $message; ?></div>

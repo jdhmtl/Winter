@@ -1,0 +1,29 @@
+#flashError,
+#flashSuccess {
+	margin: 20px auto;
+	padding: 20px;
+	width: 75%;
+}
+
+#register {
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#register input[type=submit] {
+	margin-bottom: 30px;
+}
+
+#home {
+	margin-top: 30px;
+}
+
+.right {
+	text-align: right !important;
+}
+
+.table-results tr td:first-of-type {
+	width: 30px;
+}
